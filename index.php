@@ -96,18 +96,18 @@ div#bingo{
      Alright! Think of 
     <i>any</i> number between 0 and 1000. The computer will try to correctly guess it in 
     <i>no more</i> than 
-    <i>ten</i> attempts!!! Simply answer the questions correctly! 
+    <i>ten</i> attempts. <br>Simply answer the questions correctly! <br>
     <h4>Touch to continue...</h4> 
    </div> 
   </div> 
   <div id="bingo">
-    Ha!! 
-   <br>Let's try that again! 
+    Yes you are right.
+   <br>Do you want to play again?
    <br>Pick another number. 
    <br> 
    <br>Touch to continue... 
   </div> 
-  <h2 id="text">Is your number </h2> 
+  <h2 id="text">Is your number </h2> <br><br>
   <h1><span id="num"> </span></h1> 
   <div> 
    <button id="small">"No, my number is bigger than that."</button> 
