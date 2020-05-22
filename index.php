@@ -1,5 +1,5 @@
 <!doctype html><html><head> 
-  <title>Logic Trick</title> 
+  <title>Divs Mind Game</title> 
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
  <style type="text/css" id="dcoder_stylesheet">body {
     text-align:center;
@@ -90,11 +90,11 @@ div#bingo{
     font-size:7vmin;
 }</style></head> 
  <body> 
-  <span id="question">❓</span> 
+  <span id="question"></span> 
   <div id="load"> 
    <div>
-     Alright! Think of 
-    <i>any</i> number between 0 and 1000. The computer will try to correctly guess it in 
+    <h1>Welcome to Divya Pundhir's Magic World</h1><br>
+    Think<i>any</i> number between<span> 0</span> and <span>1000</span>.<br> The computer will try to correctly guess it in 
     <i>no more</i> than 
     <i>ten</i> attempts. <br>Simply answer the questions correctly! <br>
     <h4>Touch to continue...</h4> 
@@ -103,11 +103,11 @@ div#bingo{
   <div id="bingo">
     Yes you are right.
    <br>Do you want to play again?
-   <br>Pick another number. 
+   <br>Pick another number.
    <br> 
    <br>Touch to continue... 
   </div> 
-  <h2 id="text">Is your number </h2> <br><br>
+  <h1 id="text">Is your number? </h1> <br><br>
   <h1><span id="num"> </span></h1> 
   <div> 
    <button id="small">"No, my number is bigger than that."</button> 
